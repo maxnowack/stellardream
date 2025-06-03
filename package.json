@@ -16,6 +16,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "prepare": "npm run lib",
     "prepublish": "yarn lib",
     "postpublish": "yarn docs && yarn deploy",
     "lib": "tsc",
