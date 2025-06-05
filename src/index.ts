@@ -12,7 +12,7 @@ import {
 import {StarSystem} from "./starSystem";
 
 // main
-const main = document.getElementById("js-stellardream-main");
+const main = typeof document !== 'undefined' && document.getElementById("js-stellardream-main");
 const seed = Date.now();
 
 if (main) {
